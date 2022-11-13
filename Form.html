@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 3</title>
+</head>
+<body>
+    <form method = "get">
+        <fieldset>
+            <legend> Personal Informtation</legend>
+        <p>
+            <label for= "first-name"> First Name*:</label>
+            <input
+            id = "first-name"
+            type = "text"
+            name = "first-name"
+            placeholder="Your first name"
+            required
+            >
+        </p>
+        <p>
+            <label for = "last-name"> Last Name*:</label>
+            <input
+            id = "last-name"
+            type = "text"
+            name = "last-name"
+            placeholder = "Your last name"
+            required
+            >
+        </p>
+        <label for = "email"> Email Address*:</label>
+        <input
+        id = "email"
+        type = "text"
+        name = "email"
+        placeholder = "Your email address"
+        required
+        >
+        <p>
+            <label for="password"> Password*:</label>
+            <input 
+            type = "password" 
+            name = "password"
+             id = "password"
+              required>
+            </p>
+            <p>
+            <label for = "confirm-password"> Repeat password*:</label>
+            <input 
+            id = "confirm-password"
+            type = password
+            name = "confirm-password"
+            required
+            >
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Profile Informtation</legend>
+            <p>
+                Grade Level 
+                <input type = "radio" name = "grade" value = "Freshman" id = "Freshman"> 
+                <label for = "Freshman"> Freshman</label>
+
+                <input type = "radio" name = "grade" value = "Sophomore" id = "Sophomore"> 
+                <label for = "Sophomore"> Sophomore</label>
+
+                <input type = "radio" name = "grade" value = "Junior" id = "Junior"> 
+                <label for = "Junior"> Junior</label>
+
+                <input type = "radio" name = "grade" value = "Senior" id = "Senior"> 
+                <label for = "Senior"> Senior</label>
+
+                <input type = "radio" name = "grade" value = "Graduate" id = "Graduate"> 
+                <label for = "Graduate"> Graduate</label>
+                <p> <br> <br></p>
+                <p>
+                    
+                    <label for="fav-genre">Favorite Genre of Music (You can select multiple hold command/control + shift and click) *:</label>
+                    <select name="fav-genre" id="fav-genre" multiple>
+                    <option value="rock"> rock</option>
+                    <option value="hip-hop"> hip hop</option>
+                    <option value="EDM"> EDM</option>
+                    <option value = "classical"> Classical</option>
+                </select>
+                </p>
+
+                <p>
+                    <label for="fav-wutang">Favorite member of Wu Tang Clan*:</label>
+                    <select name="fav-wutang" id="fav-wutang">
+                    <option value="select"> -----Select-----</option>
+                    <option value="RzA"> RzA</option>
+                    <option value="GzA"> GzA</option>
+                    <option value="Ol'Dirty"> Ol'Dirty</option>
+                    <option value = "Inspectah-Deck"> Inspectah Deck</option>
+                    <option value="Raekwon"> Raekwon</option>
+                    <option value="U-God"> U-God</option>
+                    <option value="Ghostface-Killah"> Ghostface Killah</option>
+                    <option value="Method-Man"> Method Man</option>
+                </select>
+                </p>
+                <input type = "checkbox" id = "signup" name = "signup" value="0">
+                <label for = "signup"> Sign me up for spam emails, because I don’t get enough junk email!
+                </label>
+                <p>
+               
+            </p>
+        </fieldset>
+        * Required
+        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+    </form>
+    
+</body>
+</html>
